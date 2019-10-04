@@ -1,5 +1,3 @@
-// spoj.com/problems/MULTQ3/
-
 #include <iostream>
 #include <assert.h>
 #include <stdlib.h>
