@@ -11,3 +11,6 @@ A competitive programming library for minimalistic code of algorithms and data s
 - Longest Path in Graph: [link](https://github.com/dgharsallah/cplib/blob/master/Graph%20algorithms/Longest%20path%20in%20graph.cpp)
 - Kruskal's MST (Minimum Spanning Tree) algorithm: [link](https://github.com/dgharsallah/cplib/blob/master/Graph%20algorithms/MST%20Kruskal.cpp)
 - Maximum Matching: [link](https://github.com/dgharsallah/cplib/blob/master/Graph%20algorithms/Maximum%20Matching.cpp)
+
+**Data Structures**
+- BIT (Binary Indexed Tree): [link](https://github.com/dgharsallah/cplib/blob/master/Data%20structures/BIT.cpp)
