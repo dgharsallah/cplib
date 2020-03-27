@@ -9,5 +9,7 @@ Under [Graph algorithms/](https://github.com/dgharsallah/cplib/tree/master/Graph
 Under [String Algorithms/](https://github.com/dgharsallah/cplib/tree/master/String%20algorithms)
 ## Data Structures
 Under [Data structures/](https://github.com/dgharsallah/cplib/tree/master/Data%20structures)
+## Dynamic Programming
+Under [Dynamic programming](https://github.com/dgharsallah/cplib/tree/master/DP)
 ### Other
 - Next greater element (using stack): [link](https://github.com/dgharsallah/cplib/blob/master/Next%20greater%20element.cpp)
