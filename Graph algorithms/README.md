@@ -8,3 +8,4 @@
 - Kruskal's MST (Minimum Spanning Tree) algorithm: [link](https://github.com/dgharsallah/cplib/blob/master/Graph%20algorithms/MST%20Kruskal.cpp)
 - Maximum Matching: [link](https://github.com/dgharsallah/cplib/blob/master/Graph%20algorithms/Maximum%20Matching.cpp)
 - Shortest path in a Grid: [link](https://github.com/dgharsallah/cplib/blob/master/Graph%20algorithms/Shortest%20path%20in%20a%20grid.cpp)
+- Longest Common Ancestor in a tree: [link](https://github.com/dgharsallah/cplib/blob/master/Graph%20algorithms/LCA.cpp)
