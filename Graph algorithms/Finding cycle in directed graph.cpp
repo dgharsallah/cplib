@@ -17,18 +17,28 @@ using namespace std;
 
 const int N = 501;
 
+/*
+WHITE : Vertex is not processed yet. Initially, all vertices are WHITE.
+GRAY: Vertex is being processed (DFS for this vertex has started, but not finished which means that all descendants (in DFS tree) 
+      of this vertex are not processed yet (or this vertex is in the function call stack)
+BLACK : Vertex and all its descendants are processed. While doing DFS, if an edge is encountered from current vertex to a GRAY vertex, 
+        then this edge is back edge and hence there is a cycle.
+*/
 int n, m, e, colors[N], U = -1, V = -1; // 0 white, 1 grey, 2 black
 vector<int> cycle;
 vector<vector<int>> graph;
 
 bool dfs(int u) {
+    // Node and its descedants are processed, nothing to explore
     if (colors[u] == 2) {
         return false;
     }
+    // This node was visited at some point but not finished. Cycle detected!
     if (colors[u] == 1) {
         e = u;
         return true;
     }
+    // mark the node as visited but not completely processed
     colors[u] = 1;
     for (int i = 0; i < graph[u].size(); ++i) {
         int v = graph[u][i];
@@ -42,6 +52,7 @@ bool dfs(int u) {
             return true;
         }
     }
+    // mark node as completely processed
     colors[u] = 2;
     return false;
 }
